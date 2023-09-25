@@ -1,0 +1,34 @@
+:root{
+    --Primary: #EE9E97;
+    --Primary-light: #F5BDBE;
+    --Primary-extralight: #FFEBE7;
+    --Primary-dark: #D56979;
+    --Secondary: #FFA863;
+    --Secondary-dark: #B7682E;
+    --Secondary-light: #FDC89E;
+    --Secondary-extralight: #FCF1E2;
+    --Tertiary: #808F7F;
+    --Tertiary-light: #E1E2DD;
+    --Tertiary-dark: #526351;
+    --Danger: #DF557F;
+    --Danger-light: #F183BE;
+    --Danger-extralight: #FBE1EF;
+    --Danger-dark: #AD1946;
+    --Warning: #EE5F14;
+    --Warning-light: #FF8E1F;
+    --Warning-extralight: #FFF2E0;
+    --Warning-dark: #E5410F;
+    --Success: #80C988;
+    --Success-light: #B0E1B6;
+    --Success-extralight: #DDF8E0;
+    --Success-dark: #319D3D;
+    --Gray: #595959;
+    --Gray-light: #767676;
+    --Gray-extralight: #E0E0E0;
+    --Gray-dark: #272727;
+    --White: #FFFFFF;
+    --Warning-dark: #E5410F;
+    --Primary-gradient: linear-gradient(180deg, rgba(255, 168, 167, 0.00) 0%, rgba(255, 168, 167, 0.39) 49.48%, rgba(255, 174, 158, 0.00) 100%);
+    --Primary-gradient-rev: linear-gradient(180deg, rgba(255, 211, 202, 0.00) 39.06%, rgba(255, 211, 202, 0.80) 100%);
+
+}
