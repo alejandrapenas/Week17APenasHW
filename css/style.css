@@ -19,7 +19,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #808F7F;
+    color: #bbceb9;
   }
 
 main {
@@ -28,6 +28,7 @@ main {
 
 section {
     margin-bottom: 20px;
+    align-content: center;
 }
 
 footer {
@@ -71,13 +72,17 @@ footer {
 
 /* Sunrise color scheme */
 
+#about {
+    align-content: center;
+}
+
 body {
     background-color: #FFEBE7;
 }
 
 h1 {
     color: #D56979;
-    font-size: 36px;
+    font-size: 64px;
     font-weight: bold;
 }
 
@@ -86,10 +91,30 @@ h2{
 }
 
 nav a {
-    color: #ffb3b3;
+    color: #D56979;
+    font-weight: bold;
 }
 
 /* Project Cards */
-.projectCard{
-    border: #526351 1px;
-}
+.projectCard {
+    width: 250px;
+    height: 350px;
+    border-radius: 10px ;
+    margin: 20px;
+    padding: 20px;
+    background-color: #b0bbaf;
+    
+  }
+  .projectCard:hover {
+    background-color: #d3dfd2;
+  }
+  .projectCard:active {
+    background-color: #dbb594;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    align-content: center;
+  }

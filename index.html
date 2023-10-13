@@ -4,6 +4,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+<!-- The header will contain the title of the webpage as well as three buttons for the main navigation of the site --> 
 <body>
     <header style="background-color: #FFEBE7; padding: 20px;">
         <h1 style="text-align: center;">Alejandra Peñas</h1>
@@ -14,17 +15,23 @@
         </nav>
       </header>
     <main>
+        <!-- This section will contain all the information About Me, a small description of me and my interests and experience --> 
         <section id="about">
             <h2>About Me</h2>
-            <p>I'm a freelance UX/UI designer based in vibrant Miami, FL, with a background in mathematics. My lifelong fascination with numbers 
-                and logic drives my problem-solving approach, both in teamwork and in hobbies like intricate puzzles. 
-                I excel in managing multiple projects, orchestrating teams with precision, and creating products suitable for diverse skill levels, ensuring client satisfaction and loyalty. 
-                My enthusiastic spirit fuels my joy in uncovering solutions and fitting together the puzzle pieces of each challenge.</p>
+                <p>
+                    I'm a freelance UX/UI designer based in vibrant Miami, FL, with a background in mathematics. My lifelong fascination with numbers 
+                    and logic drives my problem-solving approach, both in teamwork and in hobbies like intricate puzzles. 
+                    I excel in managing multiple projects, orchestrating teams with precision, and creating products suitable for diverse skill levels, ensuring client satisfaction and loyalty. 
+                    My enthusiastic spirit fuels my joy in uncovering solutions and fitting together the puzzle pieces of each challenge.
+                </p>
+            
             
         </section>
+
+        <!-- This section will contain all of my porjetcs, but only some smaples, not the full case study -->
         <section id="work">
             <h2>Projects</h2>
-            <div>
+            <div class="card-container">
                 <div class="projectCard">
                     <h3>Pocket</h3>
                     <p>An all inclusive travel and booking application to streamline your vacation plans.</p>
@@ -43,6 +50,8 @@
                 </div>
             </div> 
         </section>
+
+        <!-- This section will contain my contact infromation and for users to enter their information for me to contact them -->
         <section id="contact">
             <h2>Contact</h2>
             <form>
@@ -53,6 +62,8 @@
             </form>
         </section>
     </main>
+
+    <!-- Footer of the page -->
     <footer>
         <p>Copyright &copy; 2023 Alejandra Peñas</p>
     </footer>
